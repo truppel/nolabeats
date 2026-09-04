@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="wordmark" href="#top" aria-label="Terry Ruppel, home"><span>TR</span><strong>Terry Ruppel</strong></a>
+        <a className="wordmark" href="#top" aria-label="Terrance Ruppel, home"><span>TR</span><strong>Terrance Ruppel</strong></a>
         <nav aria-label="Main navigation">
           <a href="#work">Work</a><a href="#experience">Experience</a>
           <a className="nav-cta" href="https://github.com/truppel" target="_blank" rel="noreferrer">GitHub <ArrowUpRight size={14} /></a>
@@ -84,7 +84,7 @@ export default function Home() {
 
       <section className="skills-section"><p className="kicker">Tools I work with</p><div className="skill-list">{skills.map((skill) => <span key={skill}>{skill}</span>)}</div></section>
       <section className="contact-section"><p className="kicker">What’s next</p><h2>I’m combining proven systems thinking with modern web development.</h2><p>Follow the projects as I build, test, and improve them.</p><a className="button primary light" href="https://github.com/truppel" target="_blank" rel="noreferrer"><Code2 size={17} /> Visit my GitHub <ArrowUpRight size={16} /></a></section>
-      <footer><span>© {new Date().getFullYear()} Terry Ruppel</span><span>Built with React</span></footer>
+      <footer><span>© {new Date().getFullYear()} Terrance Ruppel</span><span>Built with React</span></footer>
     </main>
   );
 }
